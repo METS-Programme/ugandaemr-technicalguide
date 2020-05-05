@@ -7,4 +7,5 @@
 * [Form Development Guidelines](form-management.md)
 * [Report Development Guidelines](report-development-guidelines.md)
 * [Extending with a Custom Module](creating-a-custom-module.md)
+* [Releasing UgandaEMR](releasing.md)
 
