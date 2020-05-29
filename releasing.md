@@ -84,6 +84,10 @@ The order of releasing the module is usually as follows, with the ones at the to
    - openmrs-module-ugandaemr-prisonemr - Uganda Prisons Service distribution 
    - openmrs-module-ugandaemr-updfemr - Uganda People's Defence Forces distribution 
 
+## Demo Site Upgrade
+
+Once the release process has been completed the demo site needs to be updated with the latest release version 
+
 ## Troubleshooting Tips
 
 ### Failure to Upload the Release Artifacts 
