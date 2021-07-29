@@ -1,6 +1,6 @@
 Introduction
 ===
-
+redirect: SUMMARY.md
 
 The Future is now. The idea of robots living among humans is becoming a conversation that has crossed the minds of many and the opportunity to indulge in the topic of robotics engineering would help feed my desire to understand the future that is being built in front of us. By participating in this summer program on Robotics engineering I would hope to learn a new aspect of life in an ever-expanding world that we live in. 
 
