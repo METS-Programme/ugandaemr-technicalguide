@@ -1,0 +1,31 @@
+# Project information
+site_name: "ugandaemr technicalguide" 
+site_description: "Technical guide to Uganda's EMR response" 
+site_author: "METS" 
+site_url: " 
+
+#Repository 
+repo_name: "ugandaemr-technicalguide" 
+repo_url: "https://austinbwanika.github.io/ugandaemr-technicalguide/" 
+
+#Copyright 
+copyright: "Copyright &copy; 2021 METS Programme" 
+
+#Theme 
+theme: 
+  name: "material" 
+  palette: 
+    primary: "Blue Gray"  
+    accent: "indigo" 
+  language: "en" 
+  font: 
+    text: "Roboto" 
+    code: "Roboto Mono" 
+  features: 
+  # - navigation.expand 
+  - navigation.tabs 
+  
+nav: 
+  - Home: 
+    - 'SUMMARY.md' 
+  
