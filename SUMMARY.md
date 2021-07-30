@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction]
+* [Introduction](README.md)
 * [Guidelines for Customizing UgandaEMR](guidelines-for-customizing-ugandaemr.md)
 * [Setting up a Development Enviornment](setup-dev-environment.md)
 * [Metadata Management](metadata-management.md)
