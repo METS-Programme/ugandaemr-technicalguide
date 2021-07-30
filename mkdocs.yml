@@ -1,15 +1,15 @@
 # Project information
 site_name: "Uganda EMR Technical Guide"
 site_description: "Technical documentation for Uganda EMR"
-site_author: "METS"
-site_url: "https://github.com/intrahealth/client-registry"
+site_author: "METS Programme"
+site_url: "https://github.com/METS-Programme/ugandaemr-technicalguide"
 
 # Repository
 repo_name: "ugandaemr-technicalguide"
-repo_url: "https://austinbwanika.github.io/ugandaemr-technicalguide/"
+repo_url: "https://github.com/METS-Programme/ugandaemr-technicalguide"
 
 # Copyright
-copyright: "Copyright &copy; 2021 Uganda EMR"
+copyright: "Copyright © 2021 METS Programme"
 
 # Theme
 theme:
