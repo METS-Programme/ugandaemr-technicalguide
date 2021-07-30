@@ -1,31 +1,21 @@
-# Project information
-site_name: "ugandaemr technicalguide" 
-site_description: "Technical guide to Uganda's EMR response" 
-site_author: "METS" 
-site_url: " 
+name: docs
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
 
-#Repository 
-repo_name: "ugandaemr-technicalguide" 
-repo_url: "https://austinbwanika.github.io/ugandaemr-technicalguide/" 
-
-#Copyright 
-copyright: "Copyright &copy; 2021 METS Programme" 
-
-#Theme 
-theme: 
-  name: "material" 
-  palette: 
-    primary: "Blue Gray"  
-    accent: "indigo" 
-  language: "en" 
-  font: 
-    text: "Roboto" 
-    code: "Roboto Mono" 
-  features: 
-  # - navigation.expand 
-  - navigation.tabs 
-  
-nav: 
-  - Home: 
-    - 'SUMMARY.md' 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-pdf-export-plugin
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mknotebooks
+      - run: mkdocs gh-deploy --force
   
