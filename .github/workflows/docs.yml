@@ -2,7 +2,7 @@ name: docs
 on:
   push: 
     paths-ignore: 
-      - 'docs/**'   
+      - '/home/runner/work/ugandaemr-technicalguide/ugandaemr-technicalguide/docs'   
     branches:
       - master
   workflow_dispatch:
