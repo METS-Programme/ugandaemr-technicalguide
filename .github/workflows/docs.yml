@@ -19,7 +19,7 @@ jobs:
       - run: pip install mkdocs-pdf-export-plugin
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mknotebooks 
-      - run: SUMMARY gh-deploy --force
+      - run: mkdocs gh-deploy --force
 
                 
   
