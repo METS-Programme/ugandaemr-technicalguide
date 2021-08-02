@@ -1,6 +1,8 @@
 name: docs
 on:
-  push:
+  push: 
+    paths-ignore: 
+      - 'docs/**'   
     branches:
       - master
   workflow_dispatch:
@@ -18,7 +20,6 @@ jobs:
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mknotebooks 
       - run: mkdocs gh-deploy --force
-env:
-  FOLDER: root 
+
                 
   
