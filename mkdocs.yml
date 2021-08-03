@@ -3,7 +3,8 @@ site_name: "Uganda EMR Technical Guide"
 site_description: "Technical documentation for Uganda EMR"
 site_author: "METS Programme"
 site_url: "https://github.com/METS-Programme/ugandaemr-technicalguide/" 
-site_dir: "root"
+site_dir: "root" 
+docs_dir: "."
 
 # Repository
 repo_name: "ugandaemr-technicalguide"
