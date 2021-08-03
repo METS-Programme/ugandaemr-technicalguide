@@ -109,5 +109,8 @@ Temporary Items
 *.code-workspace
 
 # Local History for Visual Studio Code
-.history/
+.history/ 
+
+#tryout 
+site/docs 
 
