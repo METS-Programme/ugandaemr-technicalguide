@@ -95,4 +95,4 @@ Once the release process has been completed the demo site needs to be updated wi
 There are times when performing the release fails, usually due to permission errors (403 Forbidden) or if the servers are not available. In this case the steps below can be used to deploy the artifacts manually 
 
 1. Checkout the tag for the release `git checkout tag`
-2. Run `mvn clean deploy` which compiles the artifacts for the tag and deploys them to the relevant repositories 
+2. Run `mvn clean deploy` which compiles the artifacts for the tag and deploys them to the relevant repositories  
