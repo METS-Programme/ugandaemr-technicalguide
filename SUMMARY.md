@@ -7,5 +7,6 @@
 * [Form Development Guidelines](form-management.md)
 * [Report Development Guidelines](report-development-guidelines.md)
 * [Extending with a Custom Module](creating-a-custom-module.md)
+* Data Exchange
+  * [Setting up Sync Fhir Profiles](dataexchnage/syncfhirprofiles.md)
 * [Releasing UgandaEMR](releasing.md)
-
