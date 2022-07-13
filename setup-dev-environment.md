@@ -69,7 +69,7 @@ The development environment leverages the [OpenMRS SDK](https://wiki.openmrs.org
 
 Once you have installed the distribution, you should be able to update it with the following command from the base directory of the ugandaemr project:
 
-`mvn openmrs-sdk:deploy -DserverId=[serverId] -Ddistro=org.openmrs.module:aijar:NEW_VERSION`
+`mvn openmrs-sdk:deploy -DserverId=[serverId] -Ddistro=org.openmrs.module:ugandaemr:NEW_VERSION`
 
 The possible values of NEW\_VERSION:
 
