@@ -48,11 +48,7 @@ The development environment leverages the [OpenMRS SDK](https://wiki.openmrs.org
 
 1. Set up the environment via the following command, chosing the serverId then follow the interactive instructions that follow. For many of them the defaults are adequate. Note that the environment will be set up the directory openmrs in the user's home directory
 
-   `mvn openmrs-sdk:setup -Ddistro=org.openmrs.module:aijar:LATEST-SNAPSHOT`
-
-   To set up a server with the ugandaemrpoc distro, one can use the command below
-
-   `mvn openmrs-sdk:setup -Ddistro=org.openmrs.module:ugandaemrpoc:LATEST-SNAPSHOT`
+   `mvn openmrs-sdk:setup -Ddistro=org.openmrs.module:ugandaemr:LATEST-SNAPSHOT`
 
 2. Then startup the server `mvn openmrs-sdk:run -DserverId=[serverId]` which can be accessed at [http://localhost:8080/openmrs/](http://localhost:8081/openmrs/) \*NOTE\* the port may change depending on what was selected during the step \#1 above
 3. Once you can see the login page, run the following script to bring the concept dictionary up-to-the latest version currently 1.0.13 - [https:\sourceforge.net\projects\ugandaemr\files\1.0.13\concept\_dictonary\_ref\_1.0.13.sql\download](https://sourceforge.net/projects/ugandaemr/files/1.0.13/concept_dictonary_ref_1.0.13.sql/download)
